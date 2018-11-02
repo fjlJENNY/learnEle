@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <h6>hot upgrade</h6>
     <div>
       <p>
         If Element is successfully added to this project, you'll see an
@@ -9,17 +9,23 @@
       </p>
       <el-button>el-button</el-button>
     </div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <f-layout></f-layout>
+    <f-button></f-button>
+    <tab-router></tab-router>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import FLayout from './components/Layout'
+import FButton from "./components/Button"
+import TabRouter from '@/components/common/TabRouter'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    FLayout,
+    FButton,
+    TabRouter
   }
 }
 </script>
