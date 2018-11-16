@@ -1,6 +1,11 @@
 <template>
   <div class="page">
-    这是button
+    <el-row>
+      <el-button type="info" :loading="true"></el-button>
+      <el-button type="success"></el-button>
+      <el-button type="warning" :circle="true"></el-button>
+    </el-row>
+    <div class="icon-connection-empty"></div>
   </div>
 </template>
 

@@ -9,22 +9,24 @@
       </p>
       <el-button>el-button</el-button>
     </div>
-    <f-layout></f-layout>
-    <f-button></f-button>
+    <!-- <f-layout></f-layout>
+    <f-button></f-button> -->
     <tab-router></tab-router>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import FLayout from './components/Layout'
-import FButton from "./components/Button"
+// import FLayout from './components/Layout'
+// import FButton from "./components/Button"
+// import FRadio from './components/Radio'
 import TabRouter from '@/components/common/TabRouter'
 export default {
   name: 'app',
   components: {
-    FLayout,
-    FButton,
+    // FLayout,
+    // FButton,
+    // FRadio,
     TabRouter
   }
 }

@@ -1,8 +1,6 @@
 <template>
-  <div class="viewRouter">
-    <router-link to="/">Elema LayOut</router-link>
-    <router-link to="/button">Elema Button</router-link>
-    <router-link to="/radio">ELema Radio</router-link>
+  <div class="page">
+
   </div>
 </template>
 
@@ -20,8 +18,6 @@
 </script>
 
 <style scoped lang="scss" rel="stylesheet/scss">
-.viewRouter{
 
-}
  
 </style>
